@@ -1,3 +1,17 @@
+# Projeto de Reconhecimento de Sinais de Libras com Random Forest Classifier
+
+Este projeto tinha como objetivo desenvolver um sistema de reconhecimento de sinais de Libras em tempo real usando técnicas de aprendizado de máquina e visão computacional. A ideia era utilizar a biblioteca MediaPipe Hands para detectar e rastrear as mãos em imagens de vídeo da webcam, extrair características das mãos detectadas e alimentar essas características em um modelo de classificação, como Random Forest, para prever o sinal de Libras correspondente.
+
+### Descontinuação do Projeto
+
+Este projeto foi descontinuado devido a algumas limitações encontradas durante o desenvolvimento. A abordagem inicial de usar Random Forest para classificação mostrou-se inadequada para o problema em questão. As RandomForestClassifier não foram capazes de capturar adequadamente a complexidade e as nuances dos sinais de Libras, resultando em baixa precisão e desempenho insatisfatório.
+
+### Recomeço
+
+Decidi recomeçar o projeto, explorando outras técnicas e modelos de aprendizado de máquina mais adequados para o reconhecimento de sinais de Libras. Estou em busca de modelos mais sofisticados e métodos de pré-processamento de dados que possam capturar melhor as características dos sinais de Libras e melhorar a precisão do sistema de reconhecimento.
+
+Estou comprometido em continuar trabalhando neste projeto e encontrar uma solução eficaz para o reconhecimento de sinais de Libras em tempo real. Estou aberto a explorar novas abordagens e colaborações para alcançar esse objetivo.
+
 # Configuração do Ambiente
 
 Para executar o projeto de interpretação de sinais de libras com o MediaPipe, é necessário configurar um ambiente Python e instalar as dependências listadas no arquivo `requirements.txt`. Também é importante ressaltar que a versão Python do projeto é a [3.10.11](https://www.python.org/downloads/release/python-31011/).
